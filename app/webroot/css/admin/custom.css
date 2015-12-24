@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'sildoulosipa';
+    src: url('../../fonts/ipa/sildoulosipa931361549060.eot');
+    src: url('../../fonts/ipa/sildoulosipa931361549060.eot') format('embedded-opentype'),
+         url('../../fonts/ipa/sildoulosipa931361549060.woff2') format('woff2'),
+         url('../../fonts/ipa/sildoulosipa931361549060.woff') format('woff'),
+         url('../../fonts/ipa/sildoulosipa931361549060.ttf') format('truetype'),
+         url('../../fonts/ipa/sildoulosipa931361549060.svg#sildoulosipa931361549060') format('svg');
+}
+
+@font-face {
+	font-family:'DoulosSIL-Regular';
+	src: url('../../fonts/original_ipa/DoulosSIL_gdi.eot');
+	src: url('../../fonts/original_ipa/DoulosSIL_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/original_ipa/DoulosSIL_gdi.woff') format('woff'),
+		url('../../fonts/original_ipa/DoulosSIL_gdi.ttf') format('truetype'),
+		url('../../fonts/original_ipa/DoulosSIL_gdi.svg#DoulosSIL-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+
+
+.ipastyle{font-family:sildoulosipa; }
+
+
+
+
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    /*line-height: 0.2;
+    padding: 10px;*/
+    vertical-align: middle;
+}
+
+.margin-bottom-20{
+	margin-bottom:20px;
+}
+
+.margin-bottom-10{
+	margin-bottom:10px;
+}
+
+.tab-box{
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	min-height:690px;
+}
+
+.multiple-select{
+	height:108px !important;
+}
+
+.process-label {
+    float: left;
+    width: 125px;
+}
+
+.table.table-bordered.table-hover th{text-align: center;}
